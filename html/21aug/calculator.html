@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<body>
+    <input type="number" id="num1"  placeholder="enter no.">
+    <input type="number" id="num2"  placeholder="enter no.">
+    <button onclick="add()">+</button>
+    <button onclick="min()">-</button>
+    <button onclick="mul()">*</button>
+    <button onclick="div()">/</button>
+    <h2 id="result"></h2>
+    <script>
+        function add(){
+            let a=Number(document.getElementById("num1").value);
+            let b=Number(document.getElementById("num2").value);
+            let s=a+b;
+            document.getElementById("result").innerText="Sum="+s;
+        }
+        function div(){
+            let a=Number(document.getElementById("num1").value);
+            let b=Number(document.getElementById("num2").value);
+            let s=a/b;
+            document.getElementById("result").innerText="Sum="+s;
+        }
+        function min(){
+            let a=Number(document.getElementById("num1").value);
+            let b=Number(document.getElementById("num2").value);
+            let s=a-b;
+            document.getElementById("result").innerText="Sum="+s;
+        }
+        function mul(){
+            let a=Number(document.getElementById("num1").value);
+            let b=Number(document.getElementById("num2").value);
+            let s=a*b;
+            document.getElementById("result").innerText="Sum="+s;
+        }
+    </script>
+</body>

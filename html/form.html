@@ -1,0 +1,56 @@
+<HTML>
+    
+<HEAD>
+    <TITLE>INPUT FORM</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="PINK">
+    <CENTER>
+        <FONT SIZE=5 COLOR=PURPLE><STRONG>FILL THE FORM BELOW</STRONG></FONT>
+    </CENTER>
+    <HR>
+    <FORM METHOD="POST" ACTION="/CGI-BIN/MY_SCRIPT">
+        Enter your name :<BR>
+        <INPUT TYPE="TEXT" NAME="NA" SIZE=30 VALUE="">
+        <P>
+            Enter your address :<BR>
+            <INPUT TYPE="TEXT" NAME="add" SIZE=60 VALUE="">
+        <P>
+            Enter date of birth :<BR>
+            <INPUT TYPE="DATE" NAME="DOB">
+        <P>
+            Write about your home :<BR>
+            <TEXTAREA NAME="COMMENTS" ROWS=5 COLS=60></TEXTAREA>
+        <P>
+            What colours do you like ?
+            <INPUT TYPE="CHECKBOX" NAME="CLR1" VALUE="YES">Red
+            <INPUT TYPE="CHECKBOX" NAME="CLR2" VALUE="YES">Blue
+            <INPUT TYPE="CHECKBOX" NAME="CLR3" VALUE="YES">Green
+        <P>
+            What is your stream ?
+            <INPUT TYPE="RADIO" NAME="R1" VALUE=1>B.A.
+            <INPUT TYPE="RADIO" NAME="R1" VALUE=2>B.COM.
+            <INPUT TYPE="RADIO" NAME="R1" VALUE=3 CHECKED>B.SC.
+        <P>
+            Enter your password here:
+            <INPUT TYPE="PASSWORD" NAME="PASS" VALUE="">
+        <P>
+            Who is your favourite cricketer?
+            <SELECT NAME="CNAME">
+                <OPTION>S. GANGULY
+                <OPTION>S. TENDULKAR
+                <OPTION>R. DRAVID
+                <OPTION>K. DEV
+            </SELECT>
+        <P>
+            Choose the file you want to attach?
+            <INPUT TYPE="FILE" NAME="FILE1" SIZE=40 VALUE="">
+        <P>
+            <INPUT TYPE="HIDDEN" NAME="HFIELD1" VALUE="NOTHING WILL BE DISPLAYED">
+            <HR>
+            <INPUT TYPE="SUBMIT" NAME="SUBMIT_BUTTON" VALUE="Submit">
+            <INPUT TYPE="RESET" NAME="RESET_BUTTON" VALUE="Reset">
+    </FORM>
+</BODY>
+
+</HTML>
