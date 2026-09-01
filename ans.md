@@ -149,3 +149,156 @@ Example: **192.168.1.10**
 These are **traditional IPv4 address classes**; modern networks generally use **CIDR (Classless Inter-Domain Routing)** rather than class-based allocation.
 
 I can also turn these into **short, easy-to-memorize exam answers** or a **PDF-style study note**.
+
+
+
+
+
+
+
+
+# Module 2 – Web Designing & Publishing
+
+## Short & Easy-to-Memorize Exam Answers
+
+### 1. Advantages and Disadvantages of Internet
+
+**Advantages:**
+
+1. **Communication** – Email, chat and video calls.
+2. **Information** – Quick access to knowledge and news.
+3. **Education** – Online classes and tutorials.
+4. **Shopping** – Buying and selling products online.
+5. **Entertainment** – Movies, music and games.
+6. **Banking** – Online payments and money transfers.
+
+**Disadvantages:**
+
+1. **Security threats** – Hacking and viruses.
+2. **Privacy loss** – Personal data may be stolen.
+3. **Cybercrime** – Fraud and phishing.
+4. **Addiction** – Excessive Internet use.
+5. **Fake information** – False news and content.
+6. **Health problems** – Eye strain and other issues.
+
+**Memory trick:** **C-I-E-S-E-B**
+**C**ommunication → **I**nformation → **E**ducation → **S**hopping → **E**ntertainment → **B**anking
+
+---
+
+### 2. Types of Networks According to Distance
+
+| Network | Meaning                   | Area            |
+| ------- | ------------------------- | --------------- |
+| **PAN** | Personal Area Network     | Few meters      |
+| **LAN** | Local Area Network        | Room/building   |
+| **MAN** | Metropolitan Area Network | City            |
+| **WAN** | Wide Area Network         | Countries/world |
+
+**Easy memory trick:**
+**PAN → LAN → MAN → WAN = Small → Bigger → City → World**
+
+**One-line answer:**
+Networks are classified as **PAN, LAN, MAN and WAN** according to the geographical area they cover.
+
+---
+
+### 3. Network Topologies
+
+**Topology** means the **arrangement of devices in a network**.
+
+1. **Bus** – All devices use one main cable.
+2. **Star** – All devices connect to a central hub/switch.
+3. **Ring** – Devices form a circular connection.
+4. **Mesh** – Devices have multiple connections.
+5. **Tree** – Devices are arranged hierarchically.
+6. **Hybrid** – Combination of two or more topologies.
+
+**Memory trick:** **B-S-R-M-T-H**
+**Bus, Star, Ring, Mesh, Tree, Hybrid**
+
+---
+
+### 4. Web Browser
+
+**Definition:**
+A **web browser** is software used to access and display websites on the Internet.
+
+**Examples:** Chrome, Firefox, Edge, Safari, Opera.
+
+**Functions:**
+
+* Opens websites.
+* Displays web pages.
+* Follows hyperlinks.
+* Downloads files.
+* Saves bookmarks and history.
+
+**Memory trick:** **O-D-F-D-S**
+**O**pen → **D**isplay → **F**ollow links → **D**ownload → **S**ave
+
+---
+
+### 5. HTML Tags
+
+**HTML** stands for **HyperText Markup Language**. It is used to **create and structure web pages**.
+
+| Tag       | Use              |
+| --------- | ---------------- |
+| `<html>`  | HTML document    |
+| `<head>`  | Page information |
+| `<title>` | Page title       |
+| `<body>`  | Visible content  |
+| `<h1>`    | Heading          |
+| `<p>`     | Paragraph        |
+| `<br>`    | Line break       |
+| `<b>`     | Bold text        |
+| `<i>`     | Italic text      |
+| `<a>`     | Hyperlink        |
+| `<img>`   | Image            |
+| `<table>` | Table            |
+| `<ul>`    | Unordered list   |
+| `<ol>`    | Ordered list     |
+
+**Easy memory:**
+**Structure → Text → Link → Image → Table → Lists**
+
+---
+
+### 6. IP Address and IP Classes
+
+**Definition:**
+An **IP address** is a unique numerical address used to **identify a device on a network**.
+
+**Example:** `192.168.1.10`
+
+**IPv4:** 32-bit address written in **four parts**.
+
+| Class | Range   | Use                 |
+| ----- | ------- | ------------------- |
+| **A** | 1–126   | Very large networks |
+| **B** | 128–191 | Medium networks     |
+| **C** | 192–223 | Small networks      |
+| **D** | 224–239 | Multicasting        |
+| **E** | 240–255 | Experimental        |
+
+**Memory trick:**
+**A = All/large → B = Bigger/medium → C = Compact/small → D = Multicast → E = Experimental**
+
+---
+
+## ⭐ Super-Short Revision
+
+* **Internet:** Global network connecting computers and devices.
+* **PAN:** Personal → few meters.
+* **LAN:** Local → building.
+* **MAN:** Metropolitan → city.
+* **WAN:** Wide → countries/world.
+* **Topology:** Arrangement of network devices.
+* **Browser:** Software for accessing websites.
+* **HTML:** Language for creating web pages.
+* **IP Address:** Identifies a device on a network.
+* **IPv4:** 32-bit address.
+* **A, B, C:** Traditional network classes.
+* **D:** Multicast.
+* **E:** Experimental.
