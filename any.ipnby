@@ -1,0 +1,1880 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "# 98 Python Programs & Solutions\n",
+        "This notebook contains solutions for all 98 Python programming tasks."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 1. Print Hello world!"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "print(\"Hello world!\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 2. Add Two Numbers"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "num1 = 5\n",
+        "num2 = 7\n",
+        "print(f\"Sum: {num1 + num2}\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 3. Find the Square Root"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "import math\n",
+        "\n",
+        "num = 16\n",
+        "print(f\"Square root: {math.sqrt(num)}\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 4. Calculate the Area of a Triangle"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "base = 10\n",
+        "height = 5\n",
+        "area = 0.5 * base * height\n",
+        "print(f\"Area: {area}\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 5. Solve Quadratic Equation"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "import cmath\n",
+        "\n",
+        "a, b, c = 1, 5, 6\n",
+        "d = b**2 - 4*a*c\n",
+        "root1 = (-b - cmath.sqrt(d)) / (2*a)\n",
+        "root2 = (-b + cmath.sqrt(d)) / (2*a)\n",
+        "print(f\"Roots: {root1}, {root2}\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 6. Swap Two Variables"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "a, b = 5, 10\n",
+        "a, b = b, a\n",
+        "print(f\"a: {a}, b: {b}\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 7. Generate a Random Number"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "import random\n",
+        "\n",
+        "print(random.randint(1, 100))\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 8. Convert Kilometers to Miles"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "km = 5.0\n",
+        "miles = km * 0.621371\n",
+        "print(f\"{km} km = {miles} miles\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 9. Convert Celsius To Fahrenheit"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "celsius = 37.0\n",
+        "fahrenheit = (celsius * 1.8) + 32\n",
+        "print(f\"{celsius}\u00b0C = {fahrenheit}\u00b0F\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 10. Print Output Without a Newline"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "print(\"Hello\", end=\" \")\n",
+        "print(\"World\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 11. Check if a Number is Positive, Negative or 0"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "num = 0\n",
+        "if num > 0:\n",
+        "    print(\"Positive\")\n",
+        "elif num < 0:\n",
+        "    print(\"Negative\")\n",
+        "else:\n",
+        "    print(\"Zero\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 12. Check if a Number is Odd or Even"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "num = 7\n",
+        "print(\"Even\" if num % 2 == 0 else \"Odd\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 13. Check Leap Year"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "year = 2024\n",
+        "if (year % 400 == 0) or (year % 100 != 0 and year % 4 == 0):\n",
+        "    print(f\"{year} is a leap year\")\n",
+        "else:\n",
+        "    print(f\"{year} is not a leap year\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 14. Find the Largest Among Three Numbers"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "a, b, c = 10, 25, 15\n",
+        "print(\"Largest:\", max(a, b, c))\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 15. Check Prime Number"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "num = 29\n",
+        "is_prime = num > 1 and all(num % i != 0 for i in range(2, int(num**0.5) + 1))\n",
+        "print(f\"Is prime: {is_prime}\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 16. Print all Prime Numbers in an Interval"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "start, end = 10, 50\n",
+        "primes = [n for n in range(start, end + 1) if n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))]\n",
+        "print(f\"Primes between {start} and {end}: {primes}\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 17. Find the Factorial of a Number"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "import math\n",
+        "\n",
+        "num = 5\n",
+        "print(f\"Factorial of {num}: {math.factorial(num)}\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 18. Display the Multiplication Table"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "num = 7\n",
+        "for i in range(1, 11):\n",
+        "    print(f\"{num} x {i} = {num * i}\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 19. Print the Fibonacci Sequence"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "n = 10\n",
+        "a, b = 0, 1\n",
+        "for _ in range(n):\n",
+        "    print(a, end=\" \")\n",
+        "    a, b = b, a + b\n",
+        "print()\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 20. Check Armstrong Number"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "num = 153\n",
+        "order = len(str(num))\n",
+        "is_armstrong = num == sum(int(digit) ** order for digit in str(num))\n",
+        "print(f\"Is Armstrong: {is_armstrong}\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 21. Find Armstrong Number in an Interval"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "start, end = 100, 1000\n",
+        "armstrongs = [n for n in range(start, end) if n == sum(int(d)**len(str(n)) for d in str(n))]\n",
+        "print(armstrongs)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 22. Find the Sum of Natural Numbers"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "n = 10\n",
+        "total = n * (n + 1) // 2\n",
+        "print(f\"Sum: {total}\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 23. Create Pyramid Pattern"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "rows = 5\n",
+        "for i in range(1, rows + 1):\n",
+        "    print(\" \" * (rows - i) + \"*\" * (2 * i - 1))\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 24. Iterate Over Dictionaries Using for Loop"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "d = {\"a\": 1, \"b\": 2, \"c\": 3}\n",
+        "for key, value in d.items():\n",
+        "    print(f\"{key}: {value}\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 25. Reverse a Number"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "num = 12345\n",
+        "reversed_num = int(str(num)[::-1])\n",
+        "print(f\"Reversed: {reversed_num}\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 26. Compute the Power of a Number"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "base, exp = 2, 8\n",
+        "print(pow(base, exp))\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 27. Display Powers of 2 Using Anonymous Function"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "terms = 10\n",
+        "powers = list(map(lambda x: 2 ** x, range(terms)))\n",
+        "print(powers)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 28. Find Numbers Divisible by Another Number"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "my_list = [12, 65, 54, 39, 102, 339, 221]\n",
+        "n = 13\n",
+        "result = list(filter(lambda x: x % n == 0, my_list))\n",
+        "print(f\"Numbers divisible by {n}: {result}\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 29. Convert Decimal to Binary, Octal and Hexadecimal"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "num = 344\n",
+        "print(f\"Binary: {bin(num)[2:]}\")\n",
+        "print(f\"Octal: {oct(num)[2:]}\")\n",
+        "print(f\"Hexadecimal: {hex(num)[2:].upper()}\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 30. Find ASCII Value of Character"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "char = \"A\"\n",
+        "print(f\"ASCII value of {char}: {ord(char)}\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 31. Find HCF or GCD"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "import math\n",
+        "\n",
+        "print(math.gcd(12, 30))\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 32. Find LCM"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "import math\n",
+        "\n",
+        "a, b = 12, 30\n",
+        "lcm = abs(a * b) // math.gcd(a, b)\n",
+        "print(f\"LCM: {lcm}\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 33. Find the Factors of a Number"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "num = 320\n",
+        "factors = [i for i in range(1, num + 1) if num % i == 0]\n",
+        "print(f\"Factors: {factors}\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 34. Make a Simple Calculator"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "def add(a, b): return a + b\n",
+        "def subtract(a, b): return a - b\n",
+        "def multiply(a, b): return a * b\n",
+        "def divide(a, b): return a / b if b != 0 else \"Error\"\n",
+        "\n",
+        "print(\"10 + 5 =\", add(10, 5))\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 35. Shuffle Deck of Cards"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "import random\n",
+        "import itertools\n",
+        "\n",
+        "deck = list(itertools.product(range(1, 14), [\"Spades\", \"Hearts\", \"Diamonds\", \"Clubs\"]))\n",
+        "random.shuffle(deck)\n",
+        "print(\"Hand:\", deck[:5])\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 36. Display Calendar"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "import calendar\n",
+        "\n",
+        "year, month = 2026, 10\n",
+        "print(calendar.month(year, month))\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 37. Display Fibonacci Sequence Using Recursion"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "def fibonacci(n):\n",
+        "    return n if n <= 1 else fibonacci(n - 1) + fibonacci(n - 2)\n",
+        "\n",
+        "for i in range(10):\n",
+        "    print(fibonacci(i), end=\" \")\n",
+        "print()\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 38. Find Sum of Natural Numbers Using Recursion"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "def sum_recur(n):\n",
+        "    return n + sum_recur(n - 1) if n > 0 else 0\n",
+        "\n",
+        "print(sum_recur(10))\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 39. Find Factorial of Number Using Recursion"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "def factorial(n):\n",
+        "    return 1 if n <= 1 else n * factorial(n - 1)\n",
+        "\n",
+        "print(factorial(5))\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 40. Convert Decimal to Binary Using Recursion"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "def dec_to_bin(n):\n",
+        "    if n > 1:\n",
+        "        dec_to_bin(n // 2)\n",
+        "    print(n % 2, end=\"\")\n",
+        "\n",
+        "dec_to_bin(10)\n",
+        "print()\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 41. Return Multiple Values From a Function"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "def get_user_info():\n",
+        "    return \"Alice\", 30, \"Developer\"\n",
+        "\n",
+        "name, age, role = get_user_info()\n",
+        "print(name, age, role)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 42. Add Two Matrices"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "X = [[1, 2], [3, 4]]\n",
+        "Y = [[5, 6], [7, 8]]\n",
+        "\n",
+        "result = [[X[i][j] + Y[i][j] for j in range(len(X[0]))] for i in range(len(X))]\n",
+        "print(result)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 43. Transpose a Matrix"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "X = [[1, 2], [3, 4], [5, 6]]\n",
+        "transpose = [[row[i] for row in X] for i in range(len(X[0]))]\n",
+        "print(transpose)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 44. Multiply Two Matrices"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "A = [[1, 2], [3, 4]]\n",
+        "B = [[5, 6], [7, 8]]\n",
+        "\n",
+        "result = [[sum(a * b for a, b in zip(A_row, B_col)) for B_col in zip(*B)] for A_row in A]\n",
+        "print(result)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 45. Check Whether a String is Palindrome or Not"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "s = \"radar\"\n",
+        "print(\"Palindrome\" if s == s[::-1] else \"Not Palindrome\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 46. Remove Punctuations From a String"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "import string\n",
+        "\n",
+        "text = \"Hello, world! How's it going?\"\n",
+        "clean_text = text.translate(str.maketrans(\"\", \"\", string.punctuation))\n",
+        "print(clean_text)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 47. Sort Words in Alphabetic Order"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "text = \"python programming language is fun\"\n",
+        "words = text.lower().split()\n",
+        "words.sort()\n",
+        "print(\" \".join(words))\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 48. Illustrate Different Set Operations"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "A = {1, 2, 3, 4, 5}\n",
+        "B = {4, 5, 6, 7, 8}\n",
+        "\n",
+        "print(\"Union:\", A | B)\n",
+        "print(\"Intersection:\", A & B)\n",
+        "print(\"Difference:\", A - B)\n",
+        "print(\"Symmetric Difference:\", A ^ B)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 49. Count the Number of Each Vowel"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "text = \"Hello World\"\n",
+        "vowels = \"aeiou\"\n",
+        "counts = {v: text.lower().count(v) for v in vowels}\n",
+        "print(counts)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 50. Merge Two Dictionaries"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "d1 = {\"a\": 1, \"b\": 2}\n",
+        "d2 = {\"c\": 3, \"d\": 4}\n",
+        "merged = d1 | d2\n",
+        "print(merged)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 51. Access Index of a List Using for Loop"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "lst = [\"a\", \"b\", \"c\"]\n",
+        "for index, val in enumerate(lst):\n",
+        "    print(f\"Index {index}: {val}\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 52. Flatten a Nested List"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "nested_list = [[1, 2], [3, 4, 5], [6]]\n",
+        "flat_list = [item for sublist in nested_list for item in sublist]\n",
+        "print(flat_list)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 53. Slice Lists"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "lst = [10, 20, 30, 40, 50, 60]\n",
+        "print(\"First three:\", lst[:3])\n",
+        "print(\"Middle two:\", lst[2:4])\n",
+        "print(\"Reversed:\", lst[::-1])\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 54. Sort a Dictionary by Value"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "d = {\"apple\": 10, \"orange\": 2, \"banana\": 5}\n",
+        "sorted_d = dict(sorted(d.items(), key=lambda item: item[1]))\n",
+        "print(sorted_d)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 55. Check If a List is Empty"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "my_list = []\n",
+        "if not my_list:\n",
+        "    print(\"List is empty\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 56. Concatenate Two Lists"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "l1 = [1, 2, 3]\n",
+        "l2 = [4, 5, 6]\n",
+        "print(l1 + l2)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 57. Check if a Key is Already Present in a Dictionary"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "d = {\"name\": \"Alice\", \"age\": 25}\n",
+        "print(\"name\" in d)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 58. Split a List Into Evenly Sized Chunks"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "lst = [1, 2, 3, 4, 5, 6, 7, 8, 9]\n",
+        "chunk_size = 3\n",
+        "chunks = [lst[i:i + chunk_size] for i in range(0, len(lst), chunk_size)]\n",
+        "print(chunks)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 59. Parse a String to a Float or Int"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "str_num = \"123.45\"\n",
+        "float_val = float(str_num)\n",
+        "int_val = int(float(str_num))\n",
+        "print(float_val, int_val)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 60. Print Colored Text to the Terminal"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "class Colors:\n",
+        "    RED = \"\\033[91m\"\n",
+        "    RESET = \"\\033[0m\"\n",
+        "\n",
+        "print(f\"{Colors.RED}This text is red!{Colors.RESET}\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 61. Convert String to Datetime"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "from datetime import datetime\n",
+        "\n",
+        "date_str = \"2026-10-06 08:00:00\"\n",
+        "dt = datetime.strptime(date_str, \"%Y-%m-%d %H:%M:%S\")\n",
+        "print(type(dt), dt)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 62. Get the Last Element of the List"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "lst = [1, 2, 3, 4, 5]\n",
+        "print(lst[-1])\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 63. Get a Substring of a String"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "s = \"Hello World\"\n",
+        "print(s[0:5])\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 64. Randomly Select an Element From the List"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "import random\n",
+        "\n",
+        "lst = [\"apple\", \"banana\", \"cherry\"]\n",
+        "print(random.choice(lst))\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 65. Check If a String Is a Number (Float)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "def is_float(val):\n",
+        "    try:\n",
+        "        float(val)\n",
+        "        return True\n",
+        "    except ValueError:\n",
+        "        return False\n",
+        "\n",
+        "print(is_float(\"123.45\"))\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 66. Count the Occurrence of an Item in a List"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "lst = [1, 2, 2, 3, 2, 4]\n",
+        "print(lst.count(2))\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 67. Delete an Element From a Dictionary"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "d = {\"a\": 1, \"b\": 2, \"c\": 3}\n",
+        "d.pop(\"b\", None)\n",
+        "print(d)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 68. Create a Long Multiline String"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "multiline_str = \"\"\"This is line 1.\n",
+        "This is line 2.\n",
+        "This is line 3.\"\"\"\n",
+        "print(multiline_str)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 69. Convert Two Lists Into a Dictionary"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "keys = [\"name\", \"age\", \"city\"]\n",
+        "values = [\"Alice\", 25, \"New York\"]\n",
+        "d = dict(zip(keys, values))\n",
+        "print(d)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 70. Trim Whitespace From a String"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "text = \"   hello world   \"\n",
+        "print(text.strip())\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 71. Iterate Through Two Lists in Parallel"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "l1 = [1, 2, 3]\n",
+        "l2 = [\"a\", \"b\", \"c\"]\n",
+        "for x, y in zip(l1, l2):\n",
+        "    print(x, y)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 72. Count the Number of Digits Present In a Number"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "num = 123456\n",
+        "print(len(str(abs(num))))\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 73. Check If Two Strings are Anagram"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "s1, s2 = \"listen\", \"silent\"\n",
+        "print(sorted(s1) == sorted(s2))\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 74. Capitalize the First Character of a String"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "text = \"hello world\"\n",
+        "print(text.capitalize())\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 75. Compute all the Permutation of the String"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "from itertools import permutations\n",
+        "\n",
+        "s = \"abc\"\n",
+        "perms = [\"\".join(p) for p in permutations(s)]\n",
+        "print(perms)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 76. Count the Number of Occurrence of a Character in String"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "text = \"banana\"\n",
+        "print(text.count(\"a\"))\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 77. Remove Duplicate Element From a List"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "lst = [1, 2, 2, 3, 4, 4, 5]\n",
+        "unique_lst = list(set(lst))\n",
+        "print(unique_lst)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 78. Merge Mails"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "names = [\"Alice\", \"Bob\"]\n",
+        "template = \"Hello {name}, welcome!\"\n",
+        "\n",
+        "for name in names:\n",
+        "    print(template.format(name=name))\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 79. Find the Size (Resolution) of an Image"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "from PIL import Image\n",
+        "\n",
+        "# Example with a newly created dummy image\n",
+        "img = Image.new(\"RGB\", (1920, 1080))\n",
+        "width, height = img.size\n",
+        "print(f\"Resolution: {width}x{height}\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 80. Find Hash of File"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "import hashlib\n",
+        "\n",
+        "def file_hash(filename):\n",
+        "    h = hashlib.sha256()\n",
+        "    with open(filename, \"rb\") as f:\n",
+        "        while chunk := f.read(8192):\n",
+        "            h.update(chunk)\n",
+        "    return h.hexdigest()\n",
+        "\n",
+        "print(\"Function defined.\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 81. Safely Create a Nested Directory"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "import os\n",
+        "\n",
+        "os.makedirs(\"parent/child/nested\", exist_ok=True)\n",
+        "print(\"Directory created.\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 82. Catch Multiple Exceptions in One Line"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "try:\n",
+        "    x = 1 / 0\n",
+        "except (ZeroDivisionError, TypeError, ValueError) as e:\n",
+        "    print(f\"Caught error: {e}\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 83. Copy a File"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "import shutil\n",
+        "\n",
+        "# shutil.copy(\"source.txt\", \"destination.txt\")\n",
+        "print(\"shutil.copy() used for copying files.\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 84. Read a File Line by Line Into a List"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "sample_content = \"line1\\nline2\\nline3\"\n",
+        "lines = sample_content.splitlines()\n",
+        "print(lines)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 85. Append to a File"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# with open(\"filename.txt\", \"a\") as f:\n",
+        "#     f.write(\"\\nAppended text\")\n",
+        "print(\"Opened in 'a' mode to append.\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 86. Extract Extension From the File Name"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "import os\n",
+        "\n",
+        "file_path = \"document.pdf\"\n",
+        "ext = os.path.splitext(file_path)[1]\n",
+        "print(ext)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 87. Get the File Name From The File Path"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "import os\n",
+        "\n",
+        "path = \"/path/to/folder/document.txt\"\n",
+        "print(os.path.basename(path))\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 88. Get Line Count of a File"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "sample_text = \"line 1\\nline 2\\nline 3\"\n",
+        "line_count = len(sample_text.splitlines())\n",
+        "print(f\"Total lines: {line_count}\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 89. Find All File with .txt Extension Present Inside a Directory"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "import glob\n",
+        "\n",
+        "txt_files = glob.glob(\"*.txt\")\n",
+        "print(txt_files)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 90. Get File Creation and Modification Date"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "import os\n",
+        "import time\n",
+        "\n",
+        "path = \".\"\n",
+        "print(\"Modified:\", time.ctime(os.path.getmtime(path)))\n",
+        "print(\"Created:\", time.ctime(os.path.getctime(path)))\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 91. Get the Full Path of the Current Working Directory"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "import os\n",
+        "\n",
+        "print(os.getcwd())\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 92. Check the File Size"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "import os\n",
+        "\n",
+        "size = os.path.getsize(\".\")\n",
+        "print(f\"Size: {size} bytes\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 93. Get the Class Name of an Instance"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "class Car:\n",
+        "    pass\n",
+        "\n",
+        "c = Car()\n",
+        "print(type(c).__name__)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 94. Differentiate Between type() and isinstance()"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "class Animal: pass\n",
+        "class Dog(Animal): pass\n",
+        "\n",
+        "d = Dog()\n",
+        "\n",
+        "print(\"type() match:\", type(d) == Animal)\n",
+        "print(\"isinstance() match:\", isinstance(d, Animal))\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 95. Measure the Elapsed Time in Python"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "import time\n",
+        "\n",
+        "start_time = time.perf_counter()\n",
+        "time.sleep(0.05)\n",
+        "elapsed = time.perf_counter() - start_time\n",
+        "print(f\"Elapsed time: {elapsed:.4f} seconds\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 96. Represent enum"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "from enum import Enum\n",
+        "\n",
+        "class Color(Enum):\n",
+        "    RED = 1\n",
+        "    GREEN = 2\n",
+        "    BLUE = 3\n",
+        "\n",
+        "print(Color.RED)\n",
+        "print(Color.RED.name)\n",
+        "print(Color.RED.value)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 97. Create a Countdown Timer"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "import time\n",
+        "\n",
+        "seconds = 3\n",
+        "while seconds > 0:\n",
+        "    print(f\"Time left: {seconds}\")\n",
+        "    time.sleep(1)\n",
+        "    seconds -= 1\n",
+        "print(\"Time's up!\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 98. Convert Bytes to a String"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "byte_data = b\"Hello World\"\n",
+        "string_data = byte_data.decode(\"utf-8\")\n",
+        "print(string_data)\n"
+      ]
+    }
+  ],
+  "metadata": {
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 2
+}
